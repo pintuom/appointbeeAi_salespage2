@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang=en-US>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>AppointBee AI DFY</title>
+    <!-- ======================================================================== -->
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--font-awesome-css-start-here-->
+    <link rel="stylesheet" href="css/fontawesome-v5.7.2-pro.min.css" />
+    <!--Custom Css-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <!--Main JS-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/fevicon.png" type="image">
+
+        
+
+
+    
+    
+<style>
+        #main-div{
+        position: fixed;
+        top: 60px;
+        left:15%;
+        width: 70%;
+        background: rgba(12,0,0,0.54);
+        z-index: 9999999;
+        box-shadow: 0px 0px 100px 10px #000;
+    }
+    #proexit-popup{
+        width: 100%;
+        position: absolute;
+        top: 110px;
+        left:0%;
+        background: rgba(12,0,0,0.54);
+        z-index: 9999999;
+    }
+    .proclose-popup{
+        background-color: #fff;
+        color: #224bee;
+        border-radius: 100px;
+        padding: 4px 10px;
+        position: absolute;
+        font-weight: 900;
+        top: -30px;
+        right: -30px;
+        cursor: pointer;
+    }
+    .proclose-popup:hover{
+        background-color: rgba(255,255,255,0.8);
+    }
+</style>
+
+<!----Fullstory snippet----->
+    
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+window['_fs_org'] = '13H3WE';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+    o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+    g.anonymize=function(){g.identify(!!0)};
+    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+    g.log = function(a,b){g("log",[a,b])};
+    g.consent=function(a){g("consent",!arguments.length||a)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(){};
+    g.setVars=function(n, p){g('setVars',[n,p]);};
+    g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
+    if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
+    g._v="1.3.0";
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '503667094224388');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=503667094224388&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '283538056805524');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=283538056805524&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 893690352 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-893690352"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-893690352');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TS0GFBTM0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6TS0GFBTM0');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222076003-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222076003-1');
+</script>
+
+<!--   Adroll pixel -->
+<script type="text/javascript">
+    adroll_adv_id = "TO44SMLWCBDQJPUHT32GFX";
+    adroll_pix_id = "UFAYYQ6JCVHMVBAEIJQUBE";
+    adroll_version = "2.0";
+
+    (function(w, d, e, o, a) {
+        w.__adroll_loaded = true;
+        w.adroll = w.adroll || [];
+        w.adroll.f = [ 'setProperties', 'identify', 'track' ];
+        var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id
+                + "/roundtrip.js";
+        for (a = 0; a < w.adroll.f.length; a++) {
+            w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) {
+                return function() {
+                    w.adroll.push([ n, arguments ])
+                }
+            })(w.adroll.f[a])
+        }
+
+        e = d.createElement('script');
+        o = d.getElementsByTagName('script')[0];
+        e.async = 1;
+        e.src = roundtripUrl;
+        o.parentNode.insertBefore(e, o);
+    })(window, document);
+    adroll.track("pageView");
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '788263362356329');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=788263362356329&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ibz0wzg792");
+</script>
+    
+
+</head>
+
+
+<body>
+
+<div id="main"></div>
+    <div class="header-main">
+        <div class="container">
+            <div class="header-box">
+                <div class="logo-block">
+                    <a href="index.html"><img src="images/3.svg" alt="" style="zoom: 60%;"></a>
+                </div>
+                <span class="menu-icon" onclick="openNav()">&#9776;</span>
+                <!--Menu Start-->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="banner-img-block">
+                        <img src="images/head-logo.png" alt="" />
+                    </div>
+                    
+                    <div class="special-offer-txt">
+                    <a href="#"><u><span style="font-family: 'Raleway', sans-serif; margin-top: 10px;">SPECIAL ONE-TIME ONLY OFFER</span></u></a>
+                    </div>
+
+                    <div class="license-now-txt">
+                        <a href="#buypro"> BUY DFY NOW</a>
+                    </div>
+                  </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="black-div"></div>
+
+
+    <div class="main-vdo-banner-section">
+        <div class="container">
+            <div class="step-section">
+                 <div class="step-main-box">
+                <div class="step-bx">Step-1: Completed</div>
+                     <div class="step-bx both-step-margin"><strong>Last Step: Customize Your Order with AppointBee AI DFY</strong></div>
+                     <div class="step-bx">Step-3: <span>Access AppointBee AI</span></div>
+                    <div class="dash-line-step"></div>
+                
+                </div>
+                <div class="sport-only-bx">
+                    <h4>67 SPOTS ONLY, <span>51/67 SPOTS GONE</span></h4>
+                    <div class="loder-strip">
+                       <div class="progress active progress-striped" style="height: 18px;">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 80%;"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-offer-box">
+
+                <h2>Discover How To <span class="headline_gradient">Unlock Faster Results</span> With This AI Powered Appointment Booking System..</h2>
+                <h3>..And Collect Even More Money From Every Client The Easy Way!</h3>
+                <div class="main-vdo-box" style="width: 65%;">
+                    <!-- <img src="images/main-vdo.png" alt="new" /> -->
+                    <iframe src="https://player.vimeo.com/video/736769908?autoplay=1&muted=0" width="100%" height="460" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="main-vdo-txt-bx">
+                    <ul>
+                        <li><i class="fas fa-check-square"></i> <b>10 Done-For-You</b> Appointment Booking Websites</li>
+                        <li><i class="fas fa-check-square"></i> Fully designed to match the <b>hottest local niches</b> today</li>
+                        <li><i class="fas fa-check-square"></i> <u>Ready to take bookings</u> <b>for your clients</b> from day one</li>
+                        <li><i class="fas fa-check-square"></i> <b>10 DFY Videos</b> in Hot Local Niches</b></li>
+                        <li><i class="fas fa-check-square"></i> Instantly start selling to <b><u>explode your business</b></u></li>
+                        <li><i class="fas fa-check-square"></i> Limited <b>One Time Only</b> Offer</li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <h3 style="padding-left: 7%; padding-right: 7%;">Upgrading To The DFY Version Is <strong>Highly Recommended</strong> For Marketers/Entrepreneures Who Want <u>Even Better Results, <strong>Fast!</strong></u></h3>
+            </div>
+
+        </div>
+        <div class="container"  style="margin-top: 5%;">
+            <!-- <h2>RETAIL PRICE - <span style="text-decoration: line-through;">$497</span> <br>TODAYS SPECIAL PRICE - $67</h2> -->
+            
+            <h3><b>Get AppointBee AI Done-For-You For Just A One-Time Payment!</b></h3>
+
+              <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-1 col-md-1">
+                  <img src="images/arrowLeft.png" class="img-fluid mx-auto d-block arrowLeft1">
+                </div>
+
+                <div class="col-lg-8 col-md-12 text-center">
+                  
+                      <div class="instant-access-btn"><a href="#buypro">Get Instant Access To <br>AppointBee AI Done-For-You</a></div>
+                      
+                
+                </div>
+
+              <div class="col-lg-1 col-md-1">
+                <img src="images/arrowRight.png" class="img-fluid mx-auto d-block arrowRight1">
+              </div>
+              <div class="col-lg-1 col-md-1"></div>
+
+            </div>
+            
+            <div class="mony-bck-txt">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p>100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+<!--     <div class="partner-nakul-section">
+        <div class="container">
+            <div class="nakul-txt">Hey, Harshal here With My Partner Nakul </div>
+            <div class="nakul-partner-img">
+                <img src="images/hvs2.png" alt="vishal" />
+            </div>
+
+            <div class="nakul-partner-txt-bx">
+                <p>Hey, it’s Harshal Jadhav here with My Partner Nakul </p>
+                <p>Firstly <u><b>Welcome to AppointBee AI</b></u> and congratulations on making one of the smartest decisions in your business this year…</p>
+                <p>You just got access to advanced technology that’s going to help you <u>Skyrocket Any Local Business Appointments</u> and help you get hot leads and sales in no time <b>Using this Brand New AI Appointment Boking Engine!</b>
+                </p>
+
+            </div>
+            <p>With AppointBee AI you’re finally able to deliver a profitable and simple service that local biz owners desperately need right now.</p>
+        </div>
+
+    </div>
+
+    <div class="multiply-conversions-section">
+        <div class="container">
+            <h2>We Want To Help You Get More Customers And 10X Your Appointments…</h2>
+            <div class="multi-txt-bx">
+                <p>Before you get started we want to give <strong>you the chance to upgrade your account.</strong></p>
+                <p>We tried to pack as many features and values into AppointBee AI on the front end as possible… But, we did have to leave out some <u>amazing features and tools</u> to make the software affordable and accessible to everyone.</p>
+                <p>This does include some <u>advanced features and tools</u> that many serious Businesses would want to get access to in order to <strong>maximize their results.</strong></p>
+                <p>So, if you’re one of those serious Businesses interested in using the app to its full potential and take your results to the next level in no time, then <strong>AppointBee AI Pro License is for you…</strong></p>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="upgrade-quiztarget-section">
+        <div class="container">
+            <h2>Instantly Start Selling These <span class="headline_gradient2">10 Ready-Made Booking Websites</span> To Local Biz Owners Tonight..</h2>
+            <h3>..And Watch Your Income Explode!</h3>
+
+            <div class="container">
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web1.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>SALON</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web2.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>CHIROPRACTOR</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web3.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>CLINIC</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+               
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web4.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>DENTIST</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web5.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>DERMATOLOGIST</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web6.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>LAWYER</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web7.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>OPTOMETRIST</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web8.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>PEDIATRICIAN</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web9.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>PET GROOMING</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new">
+                            <img src="images/web10.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>SPA</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        
+                    </div>
+                </div>
+                <h3 style="margin-top: 7%;">Even though the AppointBee AI tool will allow you to create awesome AI booking systems for Local Business Owners fast, <b>these ready-made booking sites give you an even faster shortcut</b>, because everything has been done for you!</h3>
+                <h3>You can <u>edit however you wish</u>, or<b> simply start selling them straight out the box</b> to hungry local clients today!</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="there-more-section">
+        <div class="container">
+            <!-- <div class="there-more-title" style="font-weight: 600;">+ Unlock a Secret Software.. </div>
+            <h2 style="margin-left: 7%; margin-right: 7%;">..To Quickly Find Business Owners Who Need Your Help With Appoitment Booking and Secure This Secret Client Finder Tool <span>Worth $497 For Free…</span></h2>-->
+            <h3 style="margin-bottom: 7%;">Instantly Profit From The <span class="headline_gradient2">Hottest Local Niches</span> Right Now</h3>
+            <!-- <h2><b>($497 Value, Included Free With AppointBee AI Pro)</b></h2>  -->
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="images/profit_from.png" alt="leadlock" />
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    
+                    <p>We’ve done all the research to figure out the <b>hottest local niches who are spending the most money and need better booking appointment systems right now</b>… so you can dive right in and start making money!</p><br>
+                    <p>No more researching niches, testing stuff out or wasting time with the wrong local niches. <span style="color: yellow;">We’ve done all the hard work for you.</span></p><br>
+                    <p>You can edit and customize however you want using AppointBee AI, or just rebrand for your clients and hit publish to get online in seconds and start exploding their bookings!</p><br>
+                    <p><b>Plus, there’s more!</b></p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <p style="font-size: 30px; line-height: 32px; margin-top: 5%; text-align: center; font-weight: 500;margin-left: 7%; margin-right: 7%;">Can You See Why Hundreds Of Local Biz Owners Would SNATCH YOUR ARM OFF For These Ready-Made Booking Systems?</p>
+            </div>
+
+            <p style="font-size: 24px; line-height: 32px; margin-top: 2%; text-align: center; font-weight: 500; margin-left: 7%; margin-right: 7%;">It’s going to save them (and YOU) hours of work giving them a niche-focused booking system that brings in leads and customers like clockwork.</p>
+            <p style="font-size: 24px; line-height: 32px; margin-top: 2%; text-align: center; font-weight: 500; margin-left: 7%; margin-right: 7%;">And, remember, You can <b><u>sell the same template to..</u></b></p>
+
+            <h2 style="font-family: 'Orbitron', sans-serif; font-size: 48px; font-weight: 800; margin-top: 30px; margin-left: 7%; margin-right: 7%;"><span class="headline_gradient">Hundreds or Even THOUSANDS</span> of local biz owners around the world</h2> 
+            <p style="font-size: 24px; line-height: 32px; margin-top: 2%; text-align: center; font-weight: 500; margin-left: 7%; margin-right: 7%;">… which means you’re no longer trading time for money!</p>
+
+            <p style="font-size: 24px; line-height: 32px; margin-top: 2%; text-align: center; font-weight: 500; margin-left: 7%; margin-right: 7%;"><i>Local biz owners are paying thousands for outdated, generic looking booking systems each year</i>… so you can <span style="color: yellow;"><b>easily charge just $500 for one of these niche templates</b></span> that blows other booking systems out of the water!</p>
+            <p style="font-size: 24px; line-height: 32px; margin-top: 2%; text-align: center; font-weight: 500; margin-left: 7%; margin-right: 7%;">And because you have these complete booking websites ready to go, you can show clients upfront EXACTLY what it will look like!</p>
+            
+            <p style="font-size: 24px; font-weight: bold; line-height: 32px; margin-top: 2%; text-align: center; margin-left: 7%; color: yellow; margin-right: 7%;">This will help you close heaps of easy sales via email, messenger, skype or in person!</p>
+
+        
+
+
+
+          <!-- <div class="content-more-section">
+                <div style="padding: 20px 40px;" class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-1.png" alt="new" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>STEP 1 - SEARCH</h4>
+                                <p>Enter a keyword and location to instantly uncover thousands of local business owners who desperately need your help with their booking systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>STEP 2 - CONTACT</h4>
+                                <p>Click a button to instantly email each client, showing them how they could double their appointment bookings overnight, along with an offer for your services.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-2.png" alt="new" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <h2 style="font-family: 'Orbitron', sans-serif; font-size: 40px; font-weight: 600; margin-top: 7%; margin-bottom: 7%;">Within Seconds You Can Find Clients Who Need Your Help And Are Ready To Pay You Big Bucks</h2>
+
+
+
+                <div class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-3.png" alt="new" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>Search by keyword to find specific businesses you want to target</h4>
+                                <p>Just tap a button to instantly uncover thousands of local biz owners in red hot niches who need a better booking system right now!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>Search by location to target clients in specific areas</h4>
+                                <p>Want to target your local area? Done. Want to go after a big city with high income clients who can easily afford your services? Done. </p>
+                                <p>Want to dominate city by city, country by country, for all the money you can handle? Done.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-4.png" alt="new" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-5.png" alt="new" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>Filter results for even hotter leads</h4>
+                                <p>See which sites are already using overpriced, expensive appointment scheduling tools. These are easy pickings, because you can offer a better booking system for a fraction of the price they’re already paying! </p>
+                                <p>Instantly saving the biz owner thousands per year. It’s an offer they can’t refuse :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-type-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="content-type-txt">
+                                <h4>Find local biz owners who don’t use any booking system</h4>
+                                <p>AppointBee AI Leads will show you the websites that are relying on phone calls to book appointments and losing money every day as a result. More easy pickings! Just tap to send them a ready-made email that sells them on your offer!</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="content-type-img">
+                                <img src="images/content-4.png" alt="new" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 style="font-family: 'Orbitron', sans-serif; font-size: 40px; font-weight: 600; margin-top: 7%; margin-bottom: 4%;">Watch AppointBee AI Leads In Action Here</h2>
+
+                <div class="main-vdo-box" style="width: 100%; margin-bottom: 10%;">
+                    <img src="images/main-vdo.png" alt="new" />
+                    <iframe src="https://player.vimeo.com/video/455411880?autoplay=1&muted=0" width="100%" height="460" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                </div>
+
+            </div> -->
+          </div>
+    </div>
+    
+    <div class="upgrade-quiztarget-section">
+        <div class="container">
+            <h2>But Wait,<span style="background-color: yellow;"> Order In The Next 4 Minutes </span>And You’re Also Getting..<span class="headline_gradient3">10 Done For You WhiteLabel Videos</span></h2>
+            <h3 style="margin-left: 10%; margin-right: 10%;">Engaging, High Quality, TRAFFIC-GETTING Videos in some of the most lucrative local niches including...</h3>
+
+            <div class="container">
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_1.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>ACCOUNTANT</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_2.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>CARPET CLEANER</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_3.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>DAY CARE</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+               
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_4.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>ESTATE AGENT</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_5.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>FITNESS GYM</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_6.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>RESTAURANT</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_7.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>SPA</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_8.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>WINDOW CLEANER</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_9.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>LOCKSMITH</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 3%;">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="east-affiliate-new">
+                            <div class="east-affiliate-img east-affilate-new2">
+                            <img src="images/wl_video_10.webp" alt="new">
+                            <h3 class="headline_gradient2"><b>CHROPRACTER</b></h3>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        
+                    </div>
+                </div>
+                <div class="container">
+
+                <h3 style="margin-top: 7%; font-size: 24px; line-height: 32px;">Local biz owners are starving for videos they can use to promote their business… but they don’t have the time or money to create them from scratch.</h3>
+                <h3 style="font-size: 24px; line-height: 32px;">Now you can save the day by offering these ready-made videos way cheaper than they would have to pay elsewhere.</h3>
+                <h3 style="font-size: 24px; line-height: 32px;">No more tedious work for you or the client. We’ve done all the expensive and backbreaking video production for you, so you can start selling these videos to multiple clients each week, over and over!</h3></div>
+            </div>
+            <div class="container"  style="margin-top: 5%;">
+            <!-- <h2>RETAIL PRICE - <span style="text-decoration: line-through;">$497</span> <br>TODAYS SPECIAL PRICE - $67</h2> -->
+            
+            <h3><b>Get AppointBee AI Done-For-You For Just A One-Time Payment!</b></h3>
+
+              <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-1 col-md-1">
+                  <img src="images/arrowLeft.png" class="img-fluid mx-auto d-block arrowLeft1">
+                </div>
+
+                <div class="col-lg-8 col-md-12 text-center">
+                  
+                      <div class="instant-access-btn"><a href="#buypro">Get Instant Access To <br>AppointBee AI Done-For-You</a></div>
+                      
+                
+                </div>
+
+              <div class="col-lg-1 col-md-1">
+                <img src="images/arrowRight.png" class="img-fluid mx-auto d-block arrowRight1">
+              </div>
+              <div class="col-lg-1 col-md-1"></div>
+
+            </div>
+            
+            <div class="mony-bck-txt" style="text-align: center;">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p style="color: black !important;">100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+            
+
+        </div>
+        </div>
+    </div>
+
+
+    <div class="lead-lock-pro-section">
+        <div class="container">
+            <h2 style="padding-top: 12%; margin-left: 10%; margin-right: 10%;">Here’s <span class="headline_gradient">3 Ways You Can Profit</span> From These Videos Right Now...</h2>
+            <div class="powerful-leadlock-section">
+                <div class="powerful-leadlock-box">
+                    <div class="powerful-leadlock-img">
+                        <img src="images/sell.webp" alt="pro" />
+                    </div>
+                    <div class="powerful-leadlock-txt">
+                        
+                        <p><strong>Sell them directly to local clients</strong></p> 
+                        <p>Use AppointBee AI Leads to Find out Clients and Sell These Videos Directly To Local Clients. Existing and New!</p>
+                        <p>Sell Each for $500</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="powerful-leadlock-box">
+                    <div class="powerful-leadlock-img">
+                        <img src="images/monitor.webp" alt="pro" />
+                    </div>
+                    <div class="powerful-leadlock-txt" style="margin-top:10px;">
+                        <p><strong>Use Them To Generate Traffic for a “Rental” Website</strong> </p>
+                        <p>Use these Videos to Generate Traffic from Social Media, Video Ads etc and Help them get more clients</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="powerful-leadlock-box">
+                    <div class="powerful-leadlock-img">
+                        <img src="images/agreement.webp" alt="pro" />
+                    </div>
+                    <div class="powerful-leadlock-txt" style="margin-top:10px;" >
+                        <p><strong>Use them to generate leads that you can sell</strong> </p>
+                        <p>Bring in red hot leads using these high converting videos for the different niches mentioned anove and sell them to local clients for a huge profit</p>
+                        <p>Sell each Lead for a $10 or more...</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="container">
+                    <div class="row" style="margin: 5% 10% 5% 10%">
+                <p>These DFY videos are the perfect bonus gift or low ticket “tripwire” offer to get your foot in the door, help your clients get free traffic and make more money with your agency today!</p>
+                <p>As you can see…
+
+                <span style="color: yellow;">When you combine the ready-made appointment booking themes and done-for-you whitelabel local videos</span>, you have the perfect opportunity for multiple income streams and some of the easiest cash ever!
+                </p>
+                <p><b>Local Business Owners are desperate for video…</b></p>
+
+                <p>… and they’re desperate for more customer bookings too…
+
+                … and now you have the solution to BOTH these problems!</p>
+
+                <p><b>So, why wait?</b></p></div></div>
+            </div>
+        </div>
+    </div>
+
+<div class="upgrade-qt-section">
+  <div class="container">
+    <h3>Grab Your AppointBee AI Done-For-You Package Today And Unlock</h3>
+    <h2><span class="headline_gradient5">10 Ready-Made</span> AI Appointment Booking Templates And <span class="headline_gradient5">10 Whitelabel Videos</span> Before Its Too Late</h2>
+    <p>Here's Recap - Today You Are Getting </p>
+        <div class="container book_opt_service" style="padding-left: 20%; padding-right: 20%;">
+          <ol>
+            <li class="font_lora"><b><span style="color: #4425B1;">10 Done-For-you Hottest Local Niche Websites </span></b> To Start Selling Right Away for $500+ Each</li>
+
+            <li class="font_lora"><b><span style="color: #4425B1;">10 Done-For-You Local Niche Videos</span></b> To Generate Leads, Traffic So you can Sell them To Local Clients</li>
+
+            <li class="font_lora"><b><span style="color: #4425B1;">Bonus #1 </span></b> To Generate Leads, Traffic So you can Sell them To Local Clients</li>
+            <li class="font_lora"><b><span style="color: #4425B1;">Bonus #2 </span></b> To Generate Leads, Traffic So you can Sell them To Local Clients</li>
+            <li class="font_lora"><b><span style="color: #4425B1;">Bonus #3 </span></b> To Generate Leads, Traffic So you can Sell them To Local Clients</li>
+          </ol>
+        </div>
+
+        <h2 class="headline_gradient5">Dont Miss On This Valuable Deal…</h2>
+        <p>If you leave this page, You wont be able to see this Offer again</p>
+        <p><b>Secure Your DFY Package Now</b></p>
+
+
+    </div>
+</div>
+
+<div class="one-time-investment-section for-bck-blue">
+        <div class="container">
+            <!-- <h2>RETAIL PRICE - <span style="text-decoration: line-through;">$497</span> <br>TODAYS SPECIAL PRICE - $67</h2> -->
+            
+            <h2>Get AppointBee AI DFY Package For A One-Time Payment!</h2><br>
+
+              <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-1 col-md-1">
+                  <img src="images/arrowLeft.png" class="img-fluid mx-auto d-block arrowLeft">
+                </div>
+
+                <div class="col-lg-8 col-md-12 text-center">
+                  
+                      <div class="instant-access-btn"><a href="#buypro">Get Instant Access To<br> AppointBee AI Done-For-You</a></div>
+                      
+                
+                </div>
+
+              <div class="col-lg-1 col-md-1">
+                <img src="images/arrowRight.png" class="img-fluid mx-auto d-block arrowRight">
+              </div>
+              <div class="col-lg-1 col-md-1"></div>
+
+            </div>
+            
+            <div class="mony-bck-txt">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p>100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+            <h2 style="margin: 4% 10% 5% 10%;">Upgrading to the DFY version is <b>highly recommended for Local Businesses & Marketers</b> who want even better results, fast!</h2>
+
+        </div>
+    </div>
+
+
+
+    <div class="there-more-section2 lab-bonus-section">
+        <div class="container">
+          <div style="text-align: center;">  
+          <h3>BUT AGAIN, THIS IS A <span class="headline_gradient5">ONE-TIME-ONLY OFFER</span></h3>
+          <p style="padding-right: 10%; padding-left: 10%;">Order in the next 4 minutes and Start Using DFY Sites and Videos</p>
+          </div>
+
+            
+            <div class="row" style="margin-top: 12.5%;">
+                <div class="col-xl-5 col-md-12 align_center">   
+
+                
+                    <img src="images/offer.webp" alt="new" style="text-align: center;" />
+               
+                </div>
+                <div class="col-xl-7 col-md-12"> 
+        
+                
+                    <p>Once this limited time launch is over, your chance to get your 10 additional done-for-you booking websites and traffic-getting whitelabel videos is gone forever.</p>
+
+                    <p>So, if you want to <b><u>save even more time and increase your earning power overnight</u></b>, then hit the order button and grab your reseller agency license today, for one tiny additional investment.</p>
+
+                    <p>Remember, local biz owners need video if they want more traffic and leads...</p>
+                    <p>… and they need a better booking system if they want to turn those leads into customers!</p>
+
+                
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+  
+
+
+<!--     <div class="recap-section">
+        <div class="container">
+            <h3>Let’s Recap</h3>
+            <h2>Upgrade To AppointBee AI Pro + AppointBee AI Leads</h2>
+            <h3>Right Now And You’re Getting:</h3>
+            <div class="quiztarget-pro-img">
+                <img src="images/recap.png" alt="new" />
+            </div>
+            <div class="special-tool">
+                <div class="recap-target-bx">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-2 col-lg-2"></div>
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="tool_div">
+                                <h4 style="font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 30px;">Special Bonus Tools & Features Worth of $6,970</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recap-target-bx">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <ul>
+                            <li><i class="fas fa-badge-check"></i> UNLIMITED STAFF LICENSES</li>
+                            
+                            <li><i class="fas fa-badge-check"></i> UNLIMITED WEBSITE LICENSE</li>
+                            <li><i class="fas fa-badge-check"></i> UNLIMITED EMAIL AND SMS REMINDERS</li>
+                            <li><i class="fas fa-badge-check"></i> SHOWCASE UNLIMITED SERVICES</li>
+                            <li><i class="fas fa-badge-check"></i> BUILD CUSTOM AUDIENCES</li>
+                            <li><i class="fas fa-badge-check"></i> SETUP AUTO TIMINGS </li>
+                            <li><i class="fas fa-badge-check"></i> EMAIL TO RESCEDULE NO SHOW</li>
+                            <li style="width: 100%;"><i class="fas fa-badge-check"></i> RESELLER RIGHTS TO REDDULE <p>(Bonus $297 Reddit Automation Software and Training)</p></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <ul>
+
+                            <li><i class="fas fa-badge-check"></i> UNLIMITED APPOINTMENTS LICENSE</li>
+                            <li><i class="fas fa-badge-check"></i> EASY RESCHELING OPTIONS</li>
+                            <li><i class="fas fa-badge-check"></i> BRANDING OPTIONS</li>
+                            <li><i class="fas fa-badge-check"></i> COLOR CUSTOMIZATIONS</li>
+                            <li><i class="fas fa-badge-check"></i> PRIORITY SUPPORT</li>
+                            <li><i class="fas fa-badge-check"></i> EASY MARKETING AUTOMATION</li>
+                            <li><i class="fas fa-badge-check"></i> LEADLOCK PRO <p>(BONUS $297 LIST BUILDING TOOL)</p>
+                            </li>
+                            <li><i class="fas fa-badge-check"></i> MY CONVERT LAB <p>(BONUS $297 LEAD GENERATION TOOL)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="thousands-dolor-txt">
+                <p><strong>That’s thousands of dollars</strong> worth of tools and killer new features to help you get more appointmentsand make even more money with AppointBee AI starting now…</p>
+                <p>… but you don’t have to pay anything close to that!</p>
+                <p>In fact, you’re getting all of these advanced goodies for just one tiny fee instead!</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="one-time-investment-section for-bck-blue">
+        <div class="container">
+             <h2>RETAIL PRICE - <span style="text-decoration: line-through;">$497</span> <br>TODAYS SPECIAL PRICE - $67</h2>
+            
+            <h2>Get AppointBee AI PRO For Just A One-Time Payment!</h2><br>
+
+              <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-1 col-md-1">
+                  <img src="images/arrowLeft.png" class="img-fluid mx-auto d-block arrowLeft">
+                </div>
+
+                <div class="col-lg-8 col-md-12 text-center">
+                  
+                      <div class="instant-access-btn"><a href="#buypro">Get Instant Access To<br> AppointBee AI Pro + Leads</a></div>
+                      
+                
+                </div>
+
+              <div class="col-lg-1 col-md-1">
+                <img src="images/arrowRight.png" class="img-fluid mx-auto d-block arrowRight">
+              </div>
+              <div class="col-lg-1 col-md-1"></div>
+
+            </div>
+            
+            <div class="mony-bck-txt">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p>100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+            <h2 style="margin: 4% 10% 5% 10%;">Upgrading to the Pro version is <b>highly recommended for Local Businesses & Marketers</b> who want even better results, fast!</h2>
+
+        </div>
+    </div> -->
+
+    <div class="taking-risk-section">
+        <div class="container">
+            <h2>We’re Taking On All The Risk</h2>
+            <h4 style="margin: 1% 10% 0 10%;">If For Any Reason You Are Not Satisfied With The AppointBee AI DFY In The Next 30 Days, Just Let
+                Our Support Team Know And We’ll Issue You A Prompt Refund. No Questions Asked. It Means,
+                A Full 30-Day Money-Back Guarantee!</h4>
+            <div class="risk-free-bx">
+                <div class="greeen-grd"></div>
+                <h3>Try AppointBee AI DFY for 30 Days, Risk Free!</h3>
+                <div class="risk-img">
+                    <img src="images/risk.png" alt="risk">
+                </div>
+                <div class="risk-txt">
+                    <p>We’re 100% convinced you’re going to love how easy you can create 10X Your appointments with AppointBee AI DFY in minutes… </p>
+                    <p>But if you don’t agree, we’re offering you a full 30-day money-back guarantee!</p>
+                    <p>There’s nothing to lose.</p>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+
+
+            <!-- <div class="so-why-wait-section">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="so-why-wait-bx">
+                            <ul>
+                                <li><i class="fas fa-badge-check"></i> 10X your Appointments faster</li>
+                                <li><i class="fas fa-badge-check"></i> Scale Your Business</li>
+                                <li><i class="fas fa-badge-check"></i> Engage more people and get more appointments</li>
+                                <li><i class="fas fa-badge-check"></i> Automate appointment generation process and save time</li>
+                                <li><i class="fas fa-badge-check"></i> Save your heaps of money!</li>
+                                <li><span>And much more…</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="so-why-wait-img">
+                            <img src="images/why-wait.png" alt="new" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wait-by-bx">
+                <h5>So Why Wait?</h5>
+                <p>For <u>One Tiny Investment,</u> All Of These <strong>Powerful Money-Boosting Features Are Instantly
+                        Unlocked</strong> And Ready For You To Cash In With… Right Inside Your Dashboard… Right Now!</p>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="one-time-investment-section for-bck-blue" id="buypro">
+        <div class="container">
+            <br>
+            <h2 style="font-family: 'Orbitron', sans-serif; font-size: 40px;">Get <span class="headline_gradient">AppointBee AI DFY</span> For <br>Just A One-Time Payment!</h2>
+            <!-- <p><b>Use Coupon Code "<span style="color:yellow;text-decoration: underline;">pro30off</span>" to Get Additional $30 Discount</b></p> -->
+            <h2 style="margin-top: 2%; font-weight: 500;">RETAIL PRICE - <span style="text-decoration: line-through; ">$397</span><br>TODAYS SPECIAL PRICE</h2>
+            
+                
+                  <a href="https://www.jvzoo.com/b/109371/398036/2"><img src="https://i.jvzoo.com/109371/398036/2" alt="AppointBee AI DFY" border="0" /></a>
+                
+            
+            <div class="mony-bck-txt">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p>100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+            <h2 style="margin: 3% 10% 2% 10%;">Upgrading to the DFY version is highly recommended for Local Businesses & Marketers who want even better results, fast!</h3>
+
+        </div>
+    </div>
+
+
+    <!-- <div class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-qusetion-box">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="faq-bx">
+                            <div class="faq-title"><img src="images/faq.png" alt="new" /> Do I really need to upgrade to the AppointBee AI DFY version?<br>
+
+                                <p>Yes, it’s highly recommended for serious marketers/entrepreneurs who want to work with Local Businesses and Want to Setup Websites Fast.
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="faq-bx">
+                            <div class="faq-title"><img src="images/faq.png" alt="new" /> What content types do I get to lock with LeadLock Pro?<br>
+
+                                <p>You can lock multiple content types such as XLS, PDFs, DOCs, ODT, PPT, PNGs and more. You can also embed your Quiz Campaigns right inside your free reports and lock it with Leadlock Pro.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="faq-bx">
+                            <div class="faq-title"><img src="images/faq.png" alt="new" /> I want to grab unlimited leads for my business, is this pack really helpful?<br>
+
+                                <p>This QuizTarget Pro license gives you the prowess to acquire unlimited leads for a lifetime – it is a must for businesses and marketers!</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-bx">
+                            <div class="faq-title"><img src="images/faq.png" alt="new" /> How can I build custom audience funnels?<br>
+
+                                <p>You can build Custom Audience Funnels right inside your Facebook audience or Google audience set. </p>
+                                <p>Using Facebook Pixel Integration and Google Tag Manager Code Integration, you can fire events based on the quiz taker’s answers or Quiz results. </p>
+                                <p>You can also create custom audiences who did not complete your quiz!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div> -->
+
+     <!-- <div class="container">
+        <div class="one-time-investment-section for-bck-blue drak-blue last-blue-bx">
+       
+           <h2>RETAIL PRICE - <span style="text-decoration: line-through;">$497</span> <br>TODAYS SPECIAL PRICE - $67</h2>
+           
+            <h2>Use Coupon <span style="color:yellow;text-decoration: none;">"pro30off"</span> to Get Additional $30 Discount</h2>
+            <div class="instant-access-btn"><a href="#buypro">Get Instant Access To QuizTarget Pro</a></div>
+            <div class="mony-bck-txt">
+                <div class="star-all-icon"></div>
+                <div class="star-all-txt">
+                    <p>100% Money Back Guarantee </p><img src="images/card.png" alt="new" />
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="quiz-main">
+        <div class="container">
+            
+            <a href="https://www.jvzoo.com/nothanks/398036"><i><u>[no thanks, these killer dfy sites and videos won’t help me. I’ll pass]</u></i></a>
+        </div>
+    </div>
+
+    <div class="ap_footer_menu text-center ap_top_padder40 ap_top_padder40 ap_bottom_padder30 section8_text">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4 style="font-family: 'Raleway', sans-serif; font-size: 18px; line-height: 24px; color: grey;">While we make every effort to ensure that we accurately represent all the products and services reviewed on this website and their potential for income, it should be noted that earnings and income statements made by AppointBee AI and its advertisers / sponsors are estimates only of what we think you can possibly earn. There is no guarantee that you will make these levels of income and you accept the risk that the earnings and income statements differ by individual.</h4><br>
+                <ul style="font-family: 'Raleway', sans-serif; font-size: 18px; line-height: 24px; color: grey; font-weight: 500;">
+                    <li><a href="policy/cookie-policy.html" target="_blank">Cookie Policy</a></li>
+                    <li><a href="policy/disclaimer.html" target="_blank">Disclaimer</a></li>
+                    <li><a href="policy/privacy-policy.html" target="_blank">Privacy Policy</a></li>
+                    <li><a href="policy/terms-of-services.html" target="_blank">Terms Of Services</a></li>
+                    <li><a href="policy/earnings-disclaimer.html" target="_blank">Earning Disclaimer</a></li>
+                    <li><a href="policy/facebook-disclaimer.html" target="_blank">Facebook Disclaimer</a></li>
+                    <li><a href="https://engageleads.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+
+
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="ap_copyright"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center ap_top_padder20">
+                <p style="font-family: 'Raleway', sans-serif; font-size: 20px; margin: 10px 0 10px 0;">Copyright © 2023 AppointBee AI. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- <section class="proexit-popup" id="proexit-popup" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="main-div">
+                        <span class="proclose-popup">x</span>
+                    <div class="main-div">
+                        <div class="pop-head">
+                            <h2>SURPRISE!!!</h2>
+                            <h3>A Special Discount Of <u><strong>$30 Waiting!</strong></u></h3>
+
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: #fff;">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="pop-man-img">
+                                <img src="images/pop-img.png" alt="new" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-7 col-sm-7 col-sm-7">
+                            <div class="pop-main-txt-section">
+                            <div class="pop-man-bx">
+                                <h2 style="font-size: 23px;">Use Coupon Code: pro30off</h2>
+                                <h2 style="font-size: 23px;">Unlock Special Bonus Tools & Features Worth of $7,950</h2>
+                            </div>
+                            
+                            <div class="pop-cliam-btn">
+                            <a href="https://buy.paddle.com/product/633972" data-product="633972" data-theme="none" class="paddle_button" id="popupCta">CLICK HERE NOW TO GRAB YOUR DISCOUNT!</a>
+                            </div>
+                            <div class="pop-money"><span class="pop-icon-img"></span><span>100% Money Back Guarantee – No Monthly Fees</span></div>
+                                <div class="txt-grab" style="text-align: center;">Grab Discount Coupon, Before It Expires</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+     <script>
+        $(document).ready(function() {
+            $(document).on('mouseleave', leaveFromTop);
+        function leaveFromTop(e) {
+            if (e.clientY < 0) {
+                    $('.proexit-popup').show();
+            }
+        }
+        $(".proclose-popup, #popupCta").click(function(){
+            $('.proexit-popup').hide();
+            $('#proexit-popup').removeClass('proexit-popup');
+        });
+        });
+    </script>
+
+
+<!--    perfect audience -->
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
+    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
+        
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/60b4c8dfbd25376707000001.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
